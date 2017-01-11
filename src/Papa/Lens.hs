@@ -4,4 +4,5 @@ module Papa.Lens(
   module P
 ) where
 
-import Control.Lens as P
+import Papa.Lens.Export as P
+import Papa.Lens.Implement as P

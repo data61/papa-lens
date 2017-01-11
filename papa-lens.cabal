@@ -1,5 +1,5 @@
 name:               papa-lens
-version:            0.0.1
+version:            0.2.0
 license:            BSD3
 license-file:       LICENSE
 author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
@@ -19,7 +19,7 @@ source-repository   head
   location:         git@github.com:data61/papa-lens.git
 
 flag                small_base
-  description:      Choose the new, split-up base package.
+  description:      Choose the new, split-up lens package.
 
 library
   default-language:
@@ -27,8 +27,9 @@ library
 
   build-depends:
                     base >= 4.8 && < 5
-                    , lens >= 4.1 && < 5
-
+                    , papa-lens-export >= 0.2.0
+                    , papa-lens-implement >= 0.2.0
+                    
   ghc-options:
                     -Wall
 
