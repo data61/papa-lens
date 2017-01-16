@@ -27,8 +27,8 @@ library
 
   build-depends:
                     base >= 4.8 && < 5
-                    , papa-lens-export >= 0.2.0
-                    , papa-lens-implement >= 0.2.0
+                    , papa-lens-export >= 0.2.0 && < 1
+                    , papa-lens-implement >= 0.2.0 && < 1
                     
   ghc-options:
                     -Wall
